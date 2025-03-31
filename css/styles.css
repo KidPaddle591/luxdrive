@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+body {
+  font-family: "roboto";
+}
+
+.banner {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  overflow: hidden;
+}
+.banner img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+h1{
+  font-size: 50px;
+  color:black;
+}
+
+.statsStyle{
+  border: 2px, solid;
+  border-color: white;
+  
+  padding: 1rem;
+}
+/*# sourceMappingURL=styles.css.map */
